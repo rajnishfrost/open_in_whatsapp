@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
-import ios from "./asserts/1713961486302560.MP4";
-import android from "./asserts/1713961889761409.MP4";
+// import ios from "./asserts/1713961486302560.MP4";
+// import android from "./asserts/1713961889761409.MP4";
 
 function App() {
   const [input, setInput] = useState();
@@ -20,10 +20,10 @@ function App() {
           <div className='iDiv'>
             <button><a href={input}>Open</a></button>
           </div>
-          <h1 style={{ textAlign: "center" }}>Add to Home</h1>
+          {/* <h1 style={{ textAlign: "center" }}>Add to Home</h1> */}
         </div>
       </div>
-      <div className='videoDiv'>
+      {/* <div className='videoDiv'>
           <div>
             <h1 style={{ textAlign: "center" }}>IOS</h1>
             <video autoPlay controls >
@@ -36,7 +36,7 @@ function App() {
               <source src={android} type="video/mp4" />
             </video>
           </div>
-      </div>
+      </div> */}
     </div>
   );
 }
